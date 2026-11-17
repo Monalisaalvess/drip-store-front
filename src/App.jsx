@@ -33,8 +33,12 @@ function RedirectToProducts() {
 }
 
 function App() {
+  const basename =
+    import.meta.env.BASE_URL === "/"
+    ? "/"
+    : import.meta.env.BASE_URL.replace(/\/$/,"");
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <AuthProvider>
         <CartProvider>
           <ScrollToTop />
