@@ -3,7 +3,8 @@
 Projeto final de Front-end  feito em **React + Vite**, com CSS puro e React Router.
 
 ## Links 
--[https://drip-store-front-blond.vercel.app  ](https://drip-store-front-sigma.vercel.app/)
+-[https://drip-store-front-blond.vercel.app  ](https://drip-store-front-sigma.vercel.app/) 
+
 -https://monalisaalvess.github.io/drip-store-front/
 ## Como rodar
 
